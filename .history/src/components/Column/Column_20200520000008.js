@@ -1,9 +1,6 @@
 import React from "react";
 import styles from "./Column.scss";
 import Icon from "../Icon/Icon.js";
-import Card from "../Card/Card.js";
-import { settings } from "../../data/dataStore";
-import Creator from "../Creator/Creator.js";
 
 class Column extends React.Component {
   state = {
